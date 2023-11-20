@@ -1,6 +1,9 @@
 
+body {
+    background-color: #EEE0CB;
+}
 
-.heading 
+h1 
 {
     font-size: 98px;
     font-family: 'Edita';
