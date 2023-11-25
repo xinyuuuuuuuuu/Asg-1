@@ -3,23 +3,52 @@ body {
     background-color: #EEE0CB;
 }
 
-h1
-{
-    font-size: 100px;
+/*h1 {
+    font-size: 90px;
     font-family: 'Edita';
     color: #964B00;
 }
-.header 
-{
-    font-size: 50px;
+.header {
+    font-size: 5px;
     font-family:'Edita';
     color:#964B00;
     text-align: right;
-}
+} */
 
-img
-{
+img {
     position: relative;
     width: 100%;
     height: 100%;
 }
+
+.navtop {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*.navtop ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+} */
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+
+}*/
