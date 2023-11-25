@@ -3,9 +3,16 @@ body {
     background-color: #EEE0CB;
 }
 
-h1 
+h1
 {
-    font-size: 98px;
+    font-size: 100px;
     font-family: 'Edita';
     color: #964B00;
+}
+.header 
+{
+    font-size: 50px;
+    font-family:'Edita';
+    color:#964B00;
+    text-align: right;
 }
