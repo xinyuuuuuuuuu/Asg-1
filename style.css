@@ -30,12 +30,18 @@ img {
     justify-content: space-between;
 }
 
-/*.navtop ul li {
+.logo {
+    width: 120px;
+    cursor: pointer;
+    font-size: 100px;
+}
+
+.navtop ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
-
-} */
+    margin: 0 100px;
+    font-size: 30px
+}
 
 .navbar {
     width: 85%;
@@ -46,9 +52,9 @@ img {
     justify-content: space-between;
 }
 
-/*.navbar ul li {
+.navbar ul li {
     list-style: none;
     display: inline-block;
-    margin: 0 20px;
-
-}*/
+    margin: 0 90px;
+    font-size: 40px;
+}
