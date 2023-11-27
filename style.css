@@ -1,19 +1,7 @@
-
+/* index.html */
 body {
     background-color: #EEE0CB;
 }
-
-/*h1 {
-    font-size: 90px;
-    font-family: 'Edita';
-    color: #964B00;
-}
-.header {
-    font-size: 5px;
-    font-family:'Edita';
-    color:#964B00;
-    text-align: right;
-} */
 
 .navtop {
     width: 85%;
@@ -79,7 +67,7 @@ body {
     height: 700px;
 }
 
-.background {
+.background-index {
     position: relative;
     width: 100%;
     height: 100%;
@@ -136,25 +124,69 @@ body {
     height: 50px;
 }
 
+/* About.html */
+.container-about {
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("wireframe imgs/niki concert22.jpeg");
+    background-size: cover;
+  }
 
-/* Container holding the image and the text */
-.container {
+.container-about::before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+ }
+
+.centertext {
+    top: 90px;
+    font-size: 43px;
+    color: #628DB7;
     position: relative;
     text-align: center;
-    color: black;
-  }
+}
 
-/* Centered text */
-.centered {
-    color: #628DB7;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100%;
-    transform: translate(-50%, -50%);
-    font-size: 60px;
-  }
+.instagram-about {
+    width: 85px;
+    height: 85px;
+    position: relative;
+    display: block;
+    top: 120px;  
+    left: 10px;  
+}
 
-.instagram {
-    align-items: flex-end;
+.x-about {
+    width: 78px;
+    height: 78px;
+    position: relative;
+    display: block;
+    top: 11px;
+    left: 115px;    
+}
+
+.facebook-about {
+    width: 78px;
+    height: 78px;
+    position: relative;
+    display: block;
+    bottom: 66px;
+    left: 213px; 
+}
+
+.youtube-about {
+    width: 78px;
+    height: 78px;
+    position: relative;
+    display: block;
+    bottom: 66px;
+    left: 213px; 
 }
