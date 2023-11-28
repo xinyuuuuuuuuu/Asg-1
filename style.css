@@ -252,7 +252,7 @@ body {
  .login-container {
     position: relative;
     width: 100%;
-    height: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -278,8 +278,35 @@ body {
  .login-text {
     font-size: 100px;
     position: absolute;
-    justify-content: center;
     color: white;
-    right: 100px;
+    top: -30px;
+    left: 625px;
+    padding-top: 50px;
  }
 
+ .login-form {
+    position: absolute;
+    top: 1000px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+ }
+
+ .login-form-text {
+    font-size: 88px;
+
+    color: white;
+    font-family: "Edita";
+ }
+
+ .login-form-submit {
+    font-size: 88px;
+    color: white;
+    font-family: "Edita";
+ }
+
+ input [type="text"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+ }
