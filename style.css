@@ -210,4 +210,37 @@ body {
 }
 
 /* Discography.html */
+.container-d {
+    position: relative;
+    max-width: 100%;
+    max-height: auto;
+    display: flex;
+    align-items: flex-start;
+    background-size: cover;
+    text-align: left;;
+}
 
+.container-d::before {
+    content: "";
+    position: absolute;
+    text-align: left;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: black;
+ }
+
+ /*
+ .d-date {
+    font-size: 100px;
+    color: white;
+
+ }
+
+ .d-wiltern {
+    width: 40px;
+    height: 40px;
+    border-color: #707070;
+ }
+ */
