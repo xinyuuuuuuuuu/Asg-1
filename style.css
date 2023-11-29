@@ -335,3 +335,50 @@ body {
     margin-top: -10px;
     margin-bottom: 20px;
 }
+
+/* Tour.html */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.Tour-bg {
+    width: 100%;
+    height:auto;
+}
+
+.Tour-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Tour-container::before {
+    content: "";
+    position: absolute;
+    text-align: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    height: auto;
+}
+
+.Tour-toptext {
+    font-size: 100px;
+    color: white;
+    position: relative;
+    text-align: center;
+    top: -900px;
+}
+
+.Tour-middletext {
+    font-size: 60px;
+    color: white;
+    position: relative;
+    text-align: center;
+}
+
+
+
