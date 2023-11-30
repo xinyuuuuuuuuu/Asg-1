@@ -160,8 +160,7 @@ body {
  }
 
 .centertext {
-    
-    font-size: 43px;
+    font-size: 50px;
     color: #628DB7;
     position: relative;
     text-align: center;
@@ -170,56 +169,39 @@ body {
 .instagram-about {
     width: 85px;
     height: 85px;
-    position: relative;
-    display: block;
-    top: 120px;  
-    left: 10px;  
 }
 
 .x-about {
     width: 78px;
     height: 78px;
-    position: relative;
-    display: block;
-    top: 39px;
-    left: 115px;    
 }
 
 .facebook-about {
     width: 78px;
     height: 78px;
-    position: relative;
-    display: block;
-    top: -38px;
-    left: 213px; 
 }
 
 .youtube-about {
     width: 100px;
     height: 70px;
-    position: relative;
-    display: block;
-    left: 320px;
-    bottom: 110px; 
 }
 
 .spotify-about {
     width: 93px;
     height: 90px;
-    position: relative;
-    display: block;
-    left: 445px;
-    bottom: 190px; 
 }
 
 .apple-about {
     width: 93px;
     height: 90px;
-    position: relative;
-    display: block;
-    left: 545px;
-    bottom: 280px; 
 }
+
+.about-icons ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 80px 0 0 50px;
+}
+
 
 /* Discography.html */
 .container-d {
