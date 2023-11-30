@@ -144,7 +144,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-   
   }
 
 .container-about::before {
@@ -204,26 +203,22 @@ body {
 
 
 /* Discography.html */
-.container-d {
-    position: relative;
-    max-width: 100%;
-    max-height: auto;
-    display: flex;
-    align-items: flex-start;
-    background-size: cover;
-    text-align: left;;
+body {
+    margin: 0;
+    padding: 0;
 }
 
-.container-d::before {
-    content: "";
-    position: absolute;
-    text-align: left;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: black;
- }
+.container-d {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.Discography-bg {
+    width: 100%;
+    height: auto;
+}
+
 
  /*
  .d-date {
