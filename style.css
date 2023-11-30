@@ -139,13 +139,12 @@ body {
     height: auto;
     min-height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
     background-image: url("wireframe imgs/niki concert22.jpeg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: -1000px;
+   
   }
 
 .container-about::before {
@@ -156,11 +155,12 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.5);
  }
 
 .centertext {
-    top: 90px;
+    
     font-size: 43px;
     color: #628DB7;
     position: relative;
@@ -344,13 +344,13 @@ body {
 
 .Tour-bg {
     width: 100%;
-    height:auto;
+    height: auto;
 }
 
 .Tour-container {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100vh;
 }
 
 .Tour-container::before {
@@ -361,8 +361,8 @@ body {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.3);
-    height: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
 }
 
 .Tour-toptext {
