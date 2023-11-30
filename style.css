@@ -145,7 +145,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 0;
+    margin-bottom: -1000px;
   }
 
 .container-about::before {
@@ -381,9 +381,10 @@ body {
 }
 
 /* Subscribe.html */
-* {
+body {
     margin: 0;
     padding: 0;
+    height: auto;
 }
 
 .Subscribe-bg {
@@ -394,7 +395,8 @@ body {
 .Subscribe-container {
     position: relative;
     width: 100%;
-    height: auto;
+    height: 100%;
+    
 }
 
 .Subscribe-container::before {
@@ -406,6 +408,21 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.52);
-    height: auto;
+    height: 100vh;
+}
+
+.subscribe-form {
+    top: -600px;
+    font-size: 50px;
+    color: white;
+    position: relative;
+    text-align: center;
+    margin-bottom: 0%;
+}
+
+.Subscribe-form[type=text] {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
 }
 
