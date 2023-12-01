@@ -1005,7 +1005,11 @@ body {
 }
 
  /* Login.html */
- .login-container {
+
+
+
+
+ /*.login-container {
     position: relative;
     width: 100%;
     height: auto;
@@ -1082,6 +1086,8 @@ body {
     margin-top: -10px;
     margin-bottom: 20px;
 }
+*/
+
 
 /* Tour.html */
 * {
