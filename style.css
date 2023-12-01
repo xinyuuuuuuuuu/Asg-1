@@ -314,7 +314,7 @@ body {
     position: absolute;
     text-align: left;
     font-size: 50px;
-    top: 1890px;
+    top: 1860px;
     left: 370px;
     list-style: none;
 }
@@ -324,21 +324,686 @@ body {
     width: 20%;
     height: 34%;
     border: 2px solid #707070;
-    top: 2700px;
+    top: 2690px;
     left: 10px;
 }
 
+.hsij-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 2965px;
+    left: 10px;
+}
 
+.hsij-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 2740px;
+    left: 370px;
+    list-style: none;
+}
 
+.one-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 3040px;
+    left: 10px;
+}
 
+.one-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 3315px;
+    left: 10px;
+}
 
-/*
- .d-wiltern {
-    width: 40px;
-    height: 40px;
-    border-color: #707070;
- }
- */
+.one-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 3080px;
+    left: 370px;
+    list-style: none;
+}
+
+.before-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 3380px;
+    left: 10px;
+}
+
+.before-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 3650px;
+    left: 10px;
+}
+
+.before-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 3400px;
+    left: 370px;
+    list-style: none;
+}
+
+.d-2021 {
+    position: absolute;
+    font-size: 80px;
+    top: 3700px;
+    left: 10px;
+}
+
+.split-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 3800px;
+    left: 10px;
+}
+
+.split-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 4070px;
+    left: 10px;
+}
+
+.split-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 3840px;
+    left: 370px;
+    list-style: none;
+}
+
+.cmghomeLDR-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 4135px;
+    left: 10px;
+}
+
+.cmghomeLDR-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 4410px;
+    left: 10px;
+}
+
+.cmghomeLDR-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 4150px;
+    left: 370px;
+    list-style: none;
+}
+
+.cmghome-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 4520px;
+    left: 10px;
+}
+
+.cmghome-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 4795px;
+    left: 10px;
+}
+
+.cmghome-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 4550px;
+    left: 370px;
+    list-style: none;
+}
+
+.es-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 4860px;
+    left: 10px;
+}
+
+.es-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 5130px;
+    left: 10px;
+}
+
+.es-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 4890px;
+    left: 370px;
+    list-style: none;
+}
+
+.caliremix-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 5200px;
+    left: 10px;
+}
+
+.caliremix-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 5480px;
+    left: 10px;
+}
+
+.caliremix-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 5250px;
+    left: 370px;
+    list-style: none;
+}
+
+.caliaccous-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 5590px;
+    left: 10px;
+}
+
+.caliaccous-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 5870px;
+    left: 10px;
+}
+
+.caliaccous-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 5640px;
+    left: 370px;
+    list-style: none;
+}
+
+.cali-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 5980px;
+    left: 10px;
+}
+
+.cali-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 6260px;
+    left: 10px;
+}
+
+.cali-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 6020px;
+    left: 370px;
+    list-style: none;
+}
+
+.d-2020 {
+    position: absolute;
+    font-size: 80px;
+    top: 6310px;
+    left: 10px;
+}
+
+.hallwayweather-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 6405px;
+    left: 10px;
+}
+
+.hallwayweather-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 6685px;
+    left: 10px;
+}
+
+.hallwayweather-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 6450px;
+    left: 370px;
+    list-style: none;
+}
+
+.moonchild-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 6750px;
+    left: 10px;
+}
+
+.moonchild-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 7030px;
+    left: 10px;
+}
+
+.moonchild-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 6800px;
+    left: 370px;
+    list-style: none;
+}
+
+.lose-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 7510px;
+    left: 10px;
+}
+
+.lose-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 7790px;
+    left: 10px;
+}
+
+.lose-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 7560px;
+    left: 370px;
+    list-style: none;
+}
+
+.selene-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 7950px;
+    left: 10px;
+}
+
+.selene-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 8225px;
+    left: 10px;
+}
+
+.selene-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 8000px;
+    left: 370px;
+    list-style: none;
+}
+
+.switchblade-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 8340px;
+    left: 10px;
+}
+
+.switchblade-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 8615px;
+    left: 10px;
+}
+
+.switchblade-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 8380px;
+    left: 370px;
+    list-style: none;
+}
+
+.d-2019 {
+    position: absolute;
+    font-size: 80px;
+    top: 8660px;
+    left: 10px;
+}
+
+.sugarplumelegy-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 8750px;
+    left: 10px;
+}
+
+.sugarplumelegy-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 9030px;
+    left: 10px;
+}
+
+.sugarplumelegy-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 8800px;
+    left: 370px;
+    list-style: none;
+}
+
+.indigo-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 9100px;
+    left: 10px;
+}
+
+.indigo-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 9380px;
+    left: 10px;
+}
+
+.indigo-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 9140px;
+    left: 370px;
+    list-style: none;
+}
+
+.hitc-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 9445px;
+    left: 10px;
+}
+
+.hitc-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 9725px;
+    left: 10px;
+}
+
+.hitc-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 9500px;
+    left: 370px;
+    list-style: none;
+}
+
+.wttd-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 9875px;
+    left: 10px;
+}
+
+.wttd-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 10160px;
+    left: 10px;
+}
+
+.wttd-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 9910px;
+    left: 370px;
+    list-style: none;
+}
+
+.lowkey-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 10360px;
+    left: 10px;
+}
+
+.lowkey-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 10640px;
+    left: 10px;
+}
+
+.lowkey-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 10400px;
+    left: 370px;
+    list-style: none;
+}
+
+.d-2018 {
+    position: absolute;
+    font-size: 80px;
+    top: 10700px;
+    left: 10px;
+}
+
+.zephyr-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 10790px;
+    left: 10px;
+}
+
+.zephyr-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 11072px;
+    left: 10px;
+}
+
+.zephyr-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 10840px;
+    left: 370px;
+    list-style: none;
+}
+
+.vintage-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 11455px;
+    left: 10px;
+}
+
+.vintage-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 11735px;
+    left: 10px;
+}
+
+.vintage-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 11500px;
+    left: 370px;
+    list-style: none;
+}
+
+.d-2017 {
+    position: absolute;
+    font-size: 80px;
+    top: 11800px;
+    left: 10px;
+}
+
+.chilly-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 11900px;
+    left: 10px;
+}
+
+.chilly-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 12180px;
+    left: 10px;
+}
+
+.chilly-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 11940px;
+    left: 370px;
+    list-style: none;
+}
+
+.ilikeu-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 12240px;
+    left: 10px;
+}
+
+.ilikeu-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 12520px;
+    left: 10px;
+}
+
+.ilikeu-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 12280px;
+    left: 370px;
+    list-style: none;
+}
+
+.seeunever-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 12575px;
+    left: 10px;
+}
+
+.seeunever-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 12855px;
+    left: 10px;
+}
+
+.seeunever-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 12625px;
+    left: 370px;
+    list-style: none;
+}
+
 
 
  /* Login.html */
