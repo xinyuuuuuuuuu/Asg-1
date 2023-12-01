@@ -209,21 +209,22 @@ body {
 }
 
 .container-d {
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 100%;
+    min-height: 120vh;
     color: white;
-    display: flex;
-    justify-content: center;
-    background-image: url("wireframe imgs/black page.jpeg");
-    background-size: cover;
-    object-fit: fill;
-    margin: 0;
 }
 
-.d-bg {
+.d-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    background-color: black;
     width: 100%;
-    height: auto;
+    min-height: 800px;
+    overflow: auto;
+    box-sizing: border-box;
+    margin-bottom: -50px;
 }
 
 .d-2023 {
@@ -235,10 +236,9 @@ body {
 
 .wiltern-bg {
     position: absolute;
-    width: 19%;
-    height: 35%;
-    border-style: solid;
-    border-color: #707070;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
     top: 100px;
     left: 10px;
 }
@@ -250,6 +250,88 @@ body {
     top: 390px;
     left: 10px;
 }
+
+.wiltern-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 150px;
+    left: 370px;
+    list-style: none;
+}
+
+.d-2022 {
+    position: absolute;
+    font-size: 80px;
+    top: 1320px;
+    left: 10px;
+}
+
+.spotifysingle-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 1420px;
+    left: 10px;
+}
+
+.spotifysingle-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 1700px;
+    left: 10px;
+}
+
+.spotifysingle-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 1480px;
+    left: 370px;
+    list-style: none;
+}
+
+.nicole-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 1820px;
+    left: 10px;
+}
+
+.nicole-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 2100px;
+    left: 10px;
+}
+
+.nicole-sidetext {
+    position: absolute;
+    text-align: left;
+    font-size: 50px;
+    top: 1890px;
+    left: 370px;
+    list-style: none;
+}
+
+.hsij-bg {
+    position: absolute;
+    width: 20%;
+    height: 34%;
+    border: 2px solid #707070;
+    top: 2700px;
+    left: 10px;
+}
+
+
+
+
+
 /*
  .d-wiltern {
     width: 40px;
@@ -284,6 +366,7 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 0;
  }
 
  .login-text {
@@ -351,7 +434,7 @@ body {
 .Tour-container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 0;
 }
 
 .Tour-container::before {
@@ -363,7 +446,7 @@ body {
     right: 0;
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.5);
-    height: 100vh;
+    height: auto;
 }
 
 .Tour-toptext {
@@ -391,13 +474,13 @@ body {
 .Subscribe-bg {
     width: 100%;
     height: 100vh;
+
 }
 
 .Subscribe-container {
     position: relative;
     width: 100%;
-    height: 100%;
-    
+    height: 0;
 }
 
 .Subscribe-container::before {
