@@ -209,16 +209,19 @@ body {
 }
 
 .container-d {
-    position: relative;
+    position: absolute;
     width: 100%;
-    height: auto;
-    text-align: center;
+    height: 100%;
     color: white;
-
-
+    display: flex;
+    justify-content: center;
+    background-image: url("wireframe imgs/black page.jpeg");
+    background-size: cover;
+    object-fit: fill;
+    margin: 0;
 }
 
-.Discography-bg {
+.d-bg {
     width: 100%;
     height: auto;
 }
@@ -228,16 +231,23 @@ body {
     font-size: 80px;
     top: 10px;
     left: 10px;
-
 }
 
 .wiltern-bg {
     position: absolute;
     width: 19%;
-    height: 30%;
+    height: 35%;
     border-style: solid;
     border-color: #707070;
-    top: 150px;
+    top: 100px;
+    left: 10px;
+}
+
+.wiltern-text {
+    position: absolute;
+    text-align: left;
+    font-size: 40px;
+    top: 390px;
     left: 10px;
 }
 /*
