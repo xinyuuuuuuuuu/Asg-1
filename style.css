@@ -1179,3 +1179,97 @@ body {
     box-sizing: border-box;
 }
 
+
+/* Store.html */
+body {
+    font-family: "Edita";
+    overflow-x: hidden;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.store-container {
+    width: 1200px;
+    margin: auto;
+    max-width: 90%;
+    transition: transform 1s;
+}
+
+header img {
+    width: 60px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .cart-icon {
+    position: relative;
+    z-index: 1;
+}
+
+header .cart-quantity {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: x-large;
+    background-color: blueviolet;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20px);
+}
+
+.store-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.store-product .product img {
+    width: 100%;
+}
+
+.store-product h2 {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.store-product .product .product-price {
+    font-size: x-large;
+}
+
+.store-product .product {
+    position: relative;
+}
+
+.store-product .product button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: #964B00;
+    color: white;
+    width: 50%;
+    border: none;
+    padding: 20px 30px;
+    box-shadow: 0 10px 50px #000;
+    cursor: pointer;
+    transform: translateX(-50%) translateY(100px);
+    opacity: 0;
+}
+
+.store-product .product:hover button {
+    transition: 0.5s;
+    opacity: 1;
+    transform: translateX(-50%); 
+}
