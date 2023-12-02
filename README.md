@@ -20,4 +20,4 @@ pinterest, google - most of the pictures that i used was from pinterest and goog
 w3schoolds - i have referenced w3schools for some of my code as i was unsure on how to fix it.
 
 Testing
-It works fine on the broweser. It is awkward on mobile, since i  did not have enough time to do the media query.
+It works fine on the broweser. However, it is awkward on mobile, since i  did not have enough time to do the media query.
